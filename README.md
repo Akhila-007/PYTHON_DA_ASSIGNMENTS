@@ -1,10 +1,8 @@
 # PYTHON_DA_ASSIGNMENTS
 
-# Python DA Assignment 1: Data Analysis using
+# Python DA Assignment 1: Data Analysis using NumPy and Pandas
 
-## NumPy and Pandas
-
-Numpy Array Operations:
+## Numpy Array Operations:
 
 Problem Statement: To learn how to use NumPy for creating arrays, performing basic
 array operations, and conducting numerical computations through analyzing
