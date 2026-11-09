@@ -136,7 +136,7 @@ head, tail, shape, column names, and data types.
 
 import seaborn as sns
 
-# Load the 'taxis' dataset
+#Load the 'taxis' dataset
 
 df = sns.load_dataset("taxis")
 
