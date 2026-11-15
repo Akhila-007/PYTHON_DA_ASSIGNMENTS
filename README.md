@@ -211,3 +211,162 @@ how different zones affect these variables.
 Plot a violin plot to show the distribution of fare for each payment method. Use the
 payment method as the categorical axis and fare as the numeric axis to visualize its
 distribution.
+
+
+# Module End  Assignment: Python For Data Analysis
+
+## “Social Media Engagement Analytics”
+
+
+### Assignment Task Overview
+
+**Project Title: Social Media Engagement Analytics Using Python**
+
+Problem Statement
+
+Social media platforms generate massive volumes of engagement data—likes, comments, shares, impressions, watch time, and more. Analyzing such data helps companies understand user behavior, identify trends, and improve content performance.
+
+In this assignment, you will work with a social media dataset containing social media engagement metrics. The task involves data cleaning, transformation, NumPy/Pandas operations, exploratory data analysis, visualizations, and generating insights.
+
+Assignment Tasks
+
+Task 1 — Data Import & Setup
+
+*Import CSV using Pandas
+
+*Check/convert data types
+
+*Convert date columns to datetime
+
+*Use NumPy arrays for basic array operations
+
+Task 2 — Data Cleaning
+
+*Cleaning Missing Data*
+ 
+*Detect missing values (isnull(), isna())
+
+*Handle using: dropna(), fillna(), median/mode, forward/backward-fill
+
+*Duplicate Handling*
+
+*Identify & remove duplicates
+
+*Data Formatting*
+
+*Fix incorrect data types
+
+*Standardize categories (e.g., gender labels)
+
+*Correct unrealistic values in likes, comments, shares
+
+*Feature Cleaning*
+ 
+*Extract hashtag count
+
+*Clean sentiment labels
+
+*Task 3 — Data Exploration using Pandas
+
+Perform the following:
+
+*View dataset structure using head(), tail(), shape, and columns.
+
+*Check data types and info with info() and dtypes.
+
+*Generate summary statistics using describe().
+
+*Analyze categorical distributions using value_counts(), unique(), and nunique().
+
+*Create a correlation matrix for numeric fields.
+
+*Use groupby() to summarize metrics (e.g., avg likes by post type, impressions by country).
+
+Task 4 — Data Wrangling 
+
+*Use merge, concat, or join if combining DataFrames.
+
+*Create new fields such as engagement_score, log-transformed metrics (optional), and hashtag_count.
+
+*Perform groupby summaries by post_type, country, and sentiment.
+
+Task 5 — Statistical Analysis 
+
+Compute descriptive stats for likes, comments, shares, watch_time, engagement_rate, followers:
+
+*Mean, median, mode
+
+*Standard deviation, variance
+
+*Percentiles
+
+*(Optional) Skewness and kurtosis
+
+
+Task 6 — Data Visualization (Min. 8 Plots Required)
+
+*Matplotlib*
+
+*Scatter: likes vs impressions
+
+*Line: daily engagement trend
+
+*Bar: posts by category
+
+*Pie: gender distribution
+
+*Histogram: age
+
+*Box: engagement rate
+
+
+*Seaborn*
+
+*Count plot: post type
+
+*Bar plot: avg likes by category
+
+*Violin: followers vs sentiment
+
+*Pair plot: numeric features
+
+*Heatmap: correlation matrix
+
+*Swarm plot: engagement vs device
+
+*Plotly (Interactive)*
+
+Interactive line chart/bar chart/bubble/scatter chart
+
+Final Insights should Include following analysis
+
+*Content Performance*
+
+Which post types have highest engagement?
+
+Best-performing content category?
+
+Which countries have highest avg engagement rate? 
+
+*User Trends*
+
+How age affects engagement
+
+Performance difference for verified accounts
+
+
+*Behavioral Insights*
+
+Best time of day for impressions
+
+Device type impact on watch time
+
+
+*Sentiment Analysis*
+
+Which sentiment performs best
+
+Behavior of negative/neutral sentiment posts
+
+
+
